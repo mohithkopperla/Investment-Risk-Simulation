@@ -1,11 +1,5 @@
 # Investment-Risk-Simulation
 
-This looks like a solid Monte Carlo simulation for capital budgeting. You’ve effectively modeled the uncertainty of Net Present Value (NPV) and Internal Rate of Return (IRR) using a normal distribution.
-
-Since this is for GitHub, you want a README that highlights the **analytical depth** of the project—not just the Excel formulas. Here is a professional template you can use.
-
----
-
 # Capital Budgeting Risk Analysis (Monte Carlo Simulation)
 
 This project provides a comprehensive financial risk assessment for a proposed capital investment. Using **Monte Carlo simulation**, the model moves beyond static "best-case/worst-case" scenarios to provide a probabilistic distribution of potential financial outcomes (NPV and IRR).
