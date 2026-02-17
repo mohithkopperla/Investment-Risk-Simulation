@@ -39,7 +39,7 @@ The simulation is built on the following logic:
 1. **Stochastic Modeling:** Annual cash flows are generated using the `NORM.INV(RAND(), Mean, SD)` function.
 2. **Iterative Replications:** The model runs multiple replications (as seen in Appendix 1) to build a statistically significant sample size.
 3. **Net Present Value (NPV):** Calculated using the formula:
-
+$$NPV = \sum_{t=1}^{n} \frac{NCF_{t}}{(1 + r)^{t}} - \text{Initial Investment}$$
 
 4. **Internal Rate of Return (IRR):** Determines the discount rate at which the NPV equals zero.
 
